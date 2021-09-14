@@ -1,0 +1,66 @@
+body{
+	background-color: #011f3c;
+	color: #FFF;
+	margin:0px;
+	
+	  background-image: url('../assets/bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  font-family: Varela Round;
+}
+
+@Font-face {
+	font-family: Varela Round;
+  src: url(varela_round.ttf);
+}
+
+
+
+
+#me {
+	border-radius: 12px;
+	width: 150px;
+}
+
+#container {
+	margin: auto;
+	width: 300px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.button {
+	border-radius: 8px;
+text-decoration: none;
+width: 150px;
+height: 40px;
+margin: 4px;
+background: none;
+border: #fff solid 2px;
+color: #fff;
+cursor: pointer;
+font-family: Varela Round;
+}
+
+.button:hover {
+background:#fff;
+color: #000;
+
+}
+
+.spacer{
+	height:50px;
+}
+
+ @media only screen and (min-width : 320px) {
+        body{background-image: url('../assets/bgsmall.png');}
+    }
+
+    @media only screen and (min-width : 480px) {
+		body{background-image: url('../assets/bgsmall.png');}
+    }
+	
+    @media only screen and (min-width : 768px) {
+		body{background-image: url('../assets/bg.png');}
+    }
