@@ -20,7 +20,7 @@ body{
 
 #me {
 	border-radius: 12px;
-	width: 150px;
+	width: 250px;
 }
 
 #container {
@@ -33,14 +33,15 @@ body{
 .button {
 	border-radius: 8px;
 text-decoration: none;
-width: 150px;
-height: 40px;
+width: 250px;
+height: 60px;
 margin: 4px;
 background: none;
 border: #fff solid 2px;
 color: #fff;
 cursor: pointer;
 font-family: Varela Round;
+font-size:20px;
 }
 
 .button:hover {
@@ -48,6 +49,9 @@ background:#fff;
 color: #000;
 
 }
+
+#title{
+	font-size:25px;
 
 .spacer{
 	height:50px;
