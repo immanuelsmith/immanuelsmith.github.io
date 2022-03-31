@@ -4,7 +4,7 @@ var modal = document.getElementById("myModal");
 var img = document.getElementById("img1");
 img.onclick = function(){
   modal.style.display = "block";
-  modalImg.src = this.src;
+  modalImg.src = this.src.replace('-s','');
   captionText.innerHTML = this.alt;
 }
 var img2 = document.getElementById("img2");
